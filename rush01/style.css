@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'droid-sans';
+    src: url('font/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}    
+*{
+    padding: 0px;
+    margin: 0px;
+}   
+
+.policetext {
+    font-family: 'droid-sans';
+    src: url('font/DroidSans.ttf') format('truetype');
+}
+
+.policetext2 {
+    white-space: nowrap;
+    font-family: 'droid-sans';
+    src: url('font/DroidSans.ttf') format('truetype');
+}
+.policelink {
+    font-family: 'droid-sans';
+    src: url('font/droid-serif.regular.ttf') format('truetype');
+}
+/* BACKGROUND FONCTION */
+
+body {
+    background-color: white;
+}
+
+/* NAV & LIST CSS */
+
+.nav_bar, .liste ul {
+    margin-left: 145px;
+    padding: 25px 50px 20px;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 18%;
+    padding-top: 2%;
+}
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER LOGO + BACKGROUND CSS */
+
+.top {
+    display: flex;
+    flex-direction: row;
+    background:url(rush01_assets/misc/grille.png)
+}
+
+#ABC {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+header {
+    margin-top: 1.5%;
+    background-image: url(rush01_assets/misc/grille.png);
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+/* HEADER RECTANGLE CSS */
+
+
+#rectangleRouge {
+    width  : 80px;
+    height : 7px;
+    background : red;
+}
+
+#rectangleJaune {
+    width  : 150px;
+    height : 7px;
+    background : yellow;
+}
+
+#rectangleVert {
+    width  : 100px;
+    height : 7px;
+    background : rgb(66, 179, 66);
+}
+
+#rectangleBleu{
+    width  : 95px;
+    height : 7px;
+    background : rgb(28, 137, 226);
+}
+
+#rectangleViolet {
+    width  : 120px;
+    height : 7px;
+    background : rgb(224, 33, 177);
+}
+
+
+/* HEADER CATEGORIES CSS */
+
+.hotels {
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0%;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.restaurants {
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 20%;;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.services {
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0%;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.activites {
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 15%;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.plus {
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-family: 'droid-sans';
+    src: url('font/DroidSans.ttf') format('truetype');
+}
+
+
+/* YOUTUBE CSS */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* MAIN CSS */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.claims {
+    text-align: center;
+    font-style: italic;
+    background-image: url(rush01_assets/misc/grille.png);
+    font-size: 1.5em;
+    color: rgb(170, 160, 160);
+}
+
+#photoAccrobranche {
+    width: 32%;
+}
+.golf {
+    margin-top: 2%;
+    margin-right: 20px;
+}
+
+.corps {
+    color: orange;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5% 17%;
+}
+
+.colorBlack {
+    color: black;
+}
+
+.fastFoods {
+    margin-top: 15%;
+    
+}
+
+.accrobranche {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 20.7%;
+}
+
+.date {
+    color: rgb(189, 184, 178);
+}
+
+.commentaireMain {
+    margin-top: 1%;
+    margin: 2% 1%;
+}
+
+.cadre {
+    width: 450px;
+    height: 350px;
+    border: 1px solid #ccc;
+    background :white; 
+    margin: auto;
+    padding: 15px 25px;
+}
+
+.removeBlankSpace {
+    text-indent: -10px;
+}
+
+.removeBlankSpace2 {
+    text-indent: -24px;
+}
+
+.policetitle {
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+/* FOOTER */ 
+
+.contact {
+    list-style: none;
+}
+
+.footer-hyper, ul .medias {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.footer-hyper, a {
+    color:#999896;
+    text-decoration: none;
+    margin: 2% 2%;
+    
+}
+
+.bas {
+    display: flex;
+    flex-direction: row;
+    background-color: #D5CBA9;
+}
+
+.footer_bas {
+    display: flex;
+    flex-direction: row;
+    background-image: url(rush01_assets/misc/grille.png);
+    
+}
+
+.titres{
+    font-weight: bold;
+    color: gray;
+    line-height : 2;
+}
+
+.dateFooter {
+    color: rgb(189, 184, 178);
+}
+
+.commentaire {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 10%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.billet {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 4%;
+    
+}
+
+.blablaland {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+
+.billetCommentaire {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footerCategories {
+    font-weight: bold;
+    white-space: nowrap;
+    color: grey;
+    font-family: 'droid-sans';
+    src: url('font/oswald.regular.ttf') format('truetype');
+}
+
+.allignement {
+    margin: 2% 2%;
+}
+
+/* FOOTER IMAGE */
+
+#acceuil_icon {
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 65px;
+}
+
+#telephone_icon {
+    position: absolute;
+    margin-top: 129px;
+    margin-left: 65px;
+}
+
+#note_icon {
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 65px;
+}
+
+#hotels_icon {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 65px;
+}

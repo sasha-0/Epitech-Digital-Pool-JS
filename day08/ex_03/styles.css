@@ -1,0 +1,45 @@
+/*
+** EPITECH PROJECT, 2021
+** D-POO-100-Lyon_sasha-bieller
+** File description:
+** styles.css
+*/
+body {
+    background-color: rgb(247, 226, 183);
+  }
+
+.tippy-box[data-animation='rotate'][data-state='hidden'] {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.tippy-box[data-theme~='tomato'] {
+    background-color: rgb(5, 1, 1);
+    color: rgb(108, 238, 255);
+}
+
+div.container {
+    margin-top: 20%;
+    margin-left: 30%;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}

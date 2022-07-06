@@ -1,0 +1,15 @@
+/*
+** EPITECH PROJECT, 2021
+** D-POO-100-Lyon_sasha-bieller
+** File description:
+** styles.css
+*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#map {
+  width: 700px;
+  height: 700px;
+}
